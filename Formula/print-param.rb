@@ -1,16 +1,16 @@
 class PrintParam < Formula
   desc "Command-line tool to print parameters"
   homepage "https://github.com/Hamdih4/print-param"
-  version "1.0.16"
+  version "1.0.17"
 
   on_arm do
-    url "https://github.com/Hamdih4/print-param/releases/download/v1.0.16/print-param_Darwin_arm64.tar.gz"
-    sha256 "43acf3947e976822311249a6588f5f83c03d222e2839b595f72798ca4c288cb5"
+    url "https://github.com/Hamdih4/print-param/releases/download/v1.0.17/print-param_Darwin_arm64.tar.gz"
+    sha256 "8d22ed527c7143dbe41c298afb95c048ec1ac84ca0b91ffa2a99dc8a2afc4683"
   end
 
   on_intel do
-    url "https://github.com/Hamdih4/print-param/releases/download/v1.0.16/print-param_Darwin_x86_64.tar.gz"
-    sha256 "e44d80e5b7f4809df969c1bf04030b836ac91f5dbc3f3fb347fd8fa9bd47a33d"
+    url "https://github.com/Hamdih4/print-param/releases/download/v1.0.17/print-param_Darwin_x86_64.tar.gz"
+    sha256 "6133bb49b2a664214a931bc7714e96850c2e5c94c572dfa54d48f30b167f9d41"
   end
 
   def install
