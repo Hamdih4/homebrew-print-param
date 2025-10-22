@@ -5,12 +5,12 @@ class PrintParam < Formula
 
   on_arm do
     url "https://github.disney.com/alhah004/print-param/releases/download/v1.0.22/print-param_Darwin_arm64.tar.gz"
-    sha256 "9a257d83b9d7e54e9357894916b11d2a749c077e7a9ac36912e28c03bdd8640c"
+    sha256 "2d66fcf68d3cb10b528d70473f790632d4a376a39b133c7609f441e31d543f6a"
   end
 
   on_intel do
     url "https://github.disney.com/alhah004/print-param/releases/download/v1.0.22/print-param_Darwin_x86_64.tar.gz"
-    sha256 "911ce45b7ae1188ab8b7d91ea65df3074c3685af78f877f1e85515321e7b4b8f"
+    sha256 "342895d986d02549d4d7464dfdacc477f11e6d7ac16845ba8dedbad086898fcb"
   end
 
   def install
